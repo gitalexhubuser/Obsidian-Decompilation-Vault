@@ -1,0 +1,24 @@
+---
+offset: "0x004a2490"
+module: "Engine/Source"
+file: "Engine/Source/Frame/CSimpleFrame_Scripts.cpp"
+tags:
+  - wowdecomp
+  - offset
+  - module/engine_source
+---
+
+# 0x004a2490 — `Script_GetNumChildren`
+
+- **Адрес (Offset):** `0x004a2490`
+- **Модуль:** `Engine/Source`
+- **Файл исходника:** `Engine/Source/Frame/CSimpleFrame_Scripts.cpp`
+
+## Сигнатура C++
+```cpp
+// OFFSET: 0x004a2490
+static int32_t Script_GetNumChildren(lua_State* L) {
+```
+
+## Исследование и заметки
+- [ ] Открыть адрес 0x004a2490 в IDA Pro / Ghidra

@@ -1,0 +1,24 @@
+---
+offset: "0x009444a0"
+module: "Engine/Source"
+file: "Engine/Source/SoundEngine/fmodex/src/fmod_channel_real.cpp"
+tags:
+  - wowdecomp
+  - offset
+  - module/engine_source
+---
+
+# 0x009444a0 — `ChannelReal_getPosition`
+
+- **Адрес (Offset):** `0x009444a0`
+- **Модуль:** `Engine/Source`
+- **Файл исходника:** `Engine/Source/SoundEngine/fmodex/src/fmod_channel_real.cpp`
+
+## Сигнатура C++
+```cpp
+// OFFSET: 0x009444a0
+FMOD_RESULT ChannelReal::getPosition(unsigned int *position, FMOD_TIMEUNIT postype)
+```
+
+## Исследование и заметки
+- [ ] Открыть адрес 0x009444a0 в IDA Pro / Ghidra

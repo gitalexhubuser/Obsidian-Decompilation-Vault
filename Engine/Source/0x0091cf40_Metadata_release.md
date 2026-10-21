@@ -1,0 +1,24 @@
+---
+offset: "0x0091cf40"
+module: "Engine/Source"
+file: "Engine/Source/SoundEngine/fmodex/src/fmod_metadata.cpp"
+tags:
+  - wowdecomp
+  - offset
+  - module/engine_source
+---
+
+# 0x0091cf40 — `Metadata_release`
+
+- **Адрес (Offset):** `0x0091cf40`
+- **Модуль:** `Engine/Source`
+- **Файл исходника:** `Engine/Source/SoundEngine/fmodex/src/fmod_metadata.cpp`
+
+## Сигнатура C++
+```cpp
+// OFFSET: 0x0091cf40
+FMOD_RESULT Metadata::release()
+```
+
+## Исследование и заметки
+- [ ] Открыть адрес 0x0091cf40 в IDA Pro / Ghidra

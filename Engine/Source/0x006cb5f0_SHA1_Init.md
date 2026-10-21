@@ -1,0 +1,24 @@
+---
+offset: "0x006cb5f0"
+module: "Engine/Source"
+file: "Engine/Source/BlizzardCore/Source/Packages/Util/SHA1.cpp"
+tags:
+  - wowdecomp
+  - offset
+  - module/engine_source
+---
+
+# 0x006cb5f0 — `SHA1_Init`
+
+- **Адрес (Offset):** `0x006cb5f0`
+- **Модуль:** `Engine/Source`
+- **Файл исходника:** `Engine/Source/BlizzardCore/Source/Packages/Util/SHA1.cpp`
+
+## Сигнатура C++
+```cpp
+// OFFSET: 0x006cb5f0
+void SHA1_Init(SHA1_CONTEXT* context) {
+```
+
+## Исследование и заметки
+- [ ] Открыть адрес 0x006cb5f0 в IDA Pro / Ghidra

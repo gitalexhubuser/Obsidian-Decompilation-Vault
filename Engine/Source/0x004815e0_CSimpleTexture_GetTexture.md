@@ -1,0 +1,24 @@
+---
+offset: "0x004815e0"
+module: "Engine/Source"
+file: "Engine/Source/Frame/CSimpleRender.cpp"
+tags:
+  - wowdecomp
+  - offset
+  - module/engine_source
+---
+
+# 0x004815e0 — `CSimpleTexture_GetTexture`
+
+- **Адрес (Offset):** `0x004815e0`
+- **Модуль:** `Engine/Source`
+- **Файл исходника:** `Engine/Source/Frame/CSimpleRender.cpp`
+
+## Сигнатура C++
+```cpp
+// OFFSET: 0x004815e0
+int32_t CSimpleTexture::GetTexture(char* buffer, uint32_t bufferLen) {
+```
+
+## Исследование и заметки
+- [ ] Открыть адрес 0x004815e0 в IDA Pro / Ghidra

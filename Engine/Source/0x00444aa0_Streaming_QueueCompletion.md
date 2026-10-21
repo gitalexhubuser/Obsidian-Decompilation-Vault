@@ -1,0 +1,24 @@
+---
+offset: "0x00444aa0"
+module: "Engine/Source"
+file: "Engine/Source/BlizzardCore/Source/Packages/Streaming/Win64/Streaming.cpp"
+tags:
+  - wowdecomp
+  - offset
+  - module/engine_source
+---
+
+# 0x00444aa0 — `Streaming_QueueCompletion`
+
+- **Адрес (Offset):** `0x00444aa0`
+- **Модуль:** `Engine/Source`
+- **Файл исходника:** `Engine/Source/BlizzardCore/Source/Packages/Streaming/Win64/Streaming.cpp`
+
+## Сигнатура C++
+```cpp
+// OFFSET: 0x00444aa0
+bool Blizzard::Streaming::QueueCompletion(Completion* completion, int32_t priority) {
+```
+
+## Исследование и заметки
+- [ ] Открыть адрес 0x00444aa0 в IDA Pro / Ghidra

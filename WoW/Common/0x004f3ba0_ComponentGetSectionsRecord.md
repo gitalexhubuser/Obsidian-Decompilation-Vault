@@ -1,0 +1,24 @@
+---
+offset: "0x004f3ba0"
+module: "WoW/Common"
+file: "WoW/Common/ComponentCore/ComponentUtils.cpp"
+tags:
+  - wowdecomp
+  - offset
+  - module/wow_common
+---
+
+# 0x004f3ba0 — `ComponentGetSectionsRecord`
+
+- **Адрес (Offset):** `0x004f3ba0`
+- **Модуль:** `WoW/Common`
+- **Файл исходника:** `WoW/Common/ComponentCore/ComponentUtils.cpp`
+
+## Сигнатура C++
+```cpp
+// OFFSET: 0x004f3ba0
+CharSectionsRec* ComponentGetSectionsRecord(st_race* lookup, int32_t raceID, int32_t sexID, COMPONENT_VARIATIONS variation, int32_t variationIndex, int32_t colorIndex, bool* found) {
+```
+
+## Исследование и заметки
+- [ ] Открыть адрес 0x004f3ba0 в IDA Pro / Ghidra

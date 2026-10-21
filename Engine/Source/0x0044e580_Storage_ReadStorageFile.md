@@ -1,0 +1,24 @@
+---
+offset: "0x0044e580"
+module: "Engine/Source"
+file: "Engine/Source/BlizzardCore/Source/Packages/Streaming/Win64/Storage.cpp"
+tags:
+  - wowdecomp
+  - offset
+  - module/engine_source
+---
+
+# 0x0044e580 — `Storage_ReadStorageFile`
+
+- **Адрес (Offset):** `0x0044e580`
+- **Модуль:** `Engine/Source`
+- **Файл исходника:** `Engine/Source/BlizzardCore/Source/Packages/Streaming/Win64/Storage.cpp`
+
+## Сигнатура C++
+```cpp
+// OFFSET: 0x0044e580
+bool Blizzard::Storage::ReadStorageFile(const uint8_t* data, int32_t size) {
+```
+
+## Исследование и заметки
+- [ ] Открыть адрес 0x0044e580 в IDA Pro / Ghidra

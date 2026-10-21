@@ -1,0 +1,24 @@
+---
+offset: "0x009461e0"
+module: "Engine/Source"
+file: "Engine/Source/SoundEngine/fmodex/win32/src/fmod_channel_openal.cpp"
+tags:
+  - wowdecomp
+  - offset
+  - module/engine_source
+---
+
+# 0x009461e0 — `ChannelOpenAL_setLoopCount`
+
+- **Адрес (Offset):** `0x009461e0`
+- **Модуль:** `Engine/Source`
+- **Файл исходника:** `Engine/Source/SoundEngine/fmodex/win32/src/fmod_channel_openal.cpp`
+
+## Сигнатура C++
+```cpp
+// OFFSET: 0x009461e0
+FMOD_RESULT ChannelOpenAL::setLoopCount(int loopcount)
+```
+
+## Исследование и заметки
+- [ ] Открыть адрес 0x009461e0 в IDA Pro / Ghidra
