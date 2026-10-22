@@ -1,3 +1,11 @@
+<p align="center">
+  <a href="README.md">🏠 README</a> |
+  <a href="SCRIPT.md">📜 SCRIPT</a> |
+  <a href="IMG.md">🖼️ IMG</a>
+</p>
+
+---
+
 # 🔮 World of Warcraft 3.3.5a (12340) — Obsidian Decompilation Vault
 
 База знаний для **Obsidian**, содержащая свыше **24 000+ атомарных карточек** функций из проекта декомпиляции клиента World of Warcraft 3.3.5a (`Wow.exe`, билд 12340).
