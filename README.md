@@ -24,12 +24,10 @@
 ```bash
 git clone https://github.com/gitalexhubuser/Obsidian-Decompilation-Vault
 ```
+
 - Откройте приложение Obsidian.
-
 - Нажмите кнопку «Открыть папку как хранилище» (Open folder as vault).
-
 - Выберите папку со склонированным репозиторием.
-
 - При первом открытии подождите 1–2 минуты, пока Obsidian проиндексирует все файлы.
 
 # 💡 Как пользоваться поиском и навигацией
@@ -39,10 +37,11 @@ git clone https://github.com/gitalexhubuser/Obsidian-Decompilation-Vault
 - Для поиска по конкретному адресу введите: offset: "0x0076C340"
 - Для поиска по имени функции: CGUnit_C или SFileOpenFile
 
-# Таблицы через плагин Dataview
+# Таблицы через плагин Dataview (не проверил)
 
 Установите плагин Dataview в Obsidian и вставьте следующий код в любую заметку, чтобы получить динамический список всех функций модуля:
 
+TODO:
 ```bash
 TABLE offset AS "Virtual Address", file AS "Исходник"
 FROM #module/engine_storm
