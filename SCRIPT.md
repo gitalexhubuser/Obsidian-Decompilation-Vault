@@ -1,8 +1,11 @@
-<p align="center">
-  <a href="README.md">🏠 README</a> |
-  <a href="SCRIPT.md">📜 SCRIPT</a> |
-  <a href="IMG.md">🖼️ IMG</a>
-</p>
+<div align="center">
+
+[🏠 README](README.md) ·
+[📜 SCRIPT](SCRIPT.md) ·
+[🖼️ IMG](IMG.md) ·
+[⚙️ API](API.md)
+
+</div>
 
 ---
 
